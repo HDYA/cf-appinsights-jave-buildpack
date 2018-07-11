@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+# Return not applicatable for any package
+exit 1

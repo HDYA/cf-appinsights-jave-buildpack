@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+puts 'Error: This buildpack should not be used as last buildpack.'
+exit 1
