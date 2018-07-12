@@ -4,6 +4,8 @@ require 'fileutils'
 require 'rexml/document'
 include REXML
 
+puts "Application Insights buildpack"
+
 @poms = Array.new()
 
 def travel(path)

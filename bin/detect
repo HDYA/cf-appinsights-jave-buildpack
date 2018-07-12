@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
 
 # Return not applicatable for any package
+puts "AppInsights buildpack should not be detected for any projects"
 exit 1
