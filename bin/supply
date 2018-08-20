@@ -114,6 +114,9 @@ else
 end
 
 # copy ApplicationInsights.xml
-puts 'Inserting ApplicationInsights.xml'
-FileUtils.cp('../resources/ApplicationInsights.xml', ARGV[0] + '/src/main/resources/')
+print 'Inserting ApplicationInsights.xml ... '
+FileUtils.cp(ARGV[0] + '/resources/ApplicationInsights.xml', ARGV[1] + '/src/main/resources/')
+print "done.\n"
 
+
+puts 'Instrucmentation of Application Insights completed'
